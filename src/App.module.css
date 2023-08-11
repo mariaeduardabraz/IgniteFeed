@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem; /* espaçamento entre as laterais*/
+    display: grid;
+    grid-template-columns: 256px 1fr; /* 1fr indica que algo é flexível*/
+    gap: 2rem; 
+    align-items: flex-start; /* a sidebar e os post vão fica alinhados ao topo - o padrão seria esticar ara ficarem do mesmo tamanho*/
+        
+}

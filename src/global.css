@@ -1,0 +1,27 @@
+:root {
+    /* cria váriaveis com um valor padrão que poderá ser aplicado em outras classes css utilizando apenas o nome da varíavel */
+    --texttitles: #e1e1e6;
+    --text: #C4C4CC;
+    --supporttext: #8d8d99;
+    --placeholdergray: #7c7c8a;
+    --dividergray: #323238;
+    --cardsgray: #202024;
+    --backgroundgray: #121214;
+    --greenlight: #00b37e;
+    --green: #00875f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* faz com que o padding, margin e border nunca aumente a largura e altura de um elemento */
+}
+body {
+    --webkit-font-smoothing: antialiased; /* aplica nos navegadores uma padronização para sa fontes ficarem mais detalhadas, utlizado principalmente com fontes que não são padrão do sistema */
+    background-color: var(--backgroundgray);
+}
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    font-weight: 400;
+    font-size: 1rem; /* unidade relativa e adaptável conforme o padrão do browser / por padrão inicia como 16px mas pode ser aumetada */
+}
