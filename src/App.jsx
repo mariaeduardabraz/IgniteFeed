@@ -12,6 +12,7 @@ export function App() { // componente que será importado/repetítivel
         <Sidebar/>
         <main>
           <Post />
+          <Post />
         </main>
       </div>
     </div> // não pode ter muitos componentes juntos sem um elemento em vota - div
