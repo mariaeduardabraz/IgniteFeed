@@ -10,6 +10,10 @@
     --greenlight: #00b37e;
     --green: #00875f;
 }
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--greenlight);
+}
 * {
     margin: 0;
     padding: 0;

@@ -20,6 +20,12 @@ export function Post () {
                 <a href='https://github.com/mariaeduardabraz.png'>👉 https://github.com/mariaeduardabraz.png</a>
                 <p>👉 <a href=""> #irrul</a></p>
             </div>
+            <form className={styles.commentForm}>
+                <textarea placeholder="Deixe seu comentário"/>
+                <footer>
+                    <button type='submit'>Comentar</button>
+                </footer>
+            </form>
         </article>
     )
 }
