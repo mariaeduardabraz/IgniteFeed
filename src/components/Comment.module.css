@@ -20,13 +20,13 @@
     padding: 1rem;
 }
 
-.commentContent Haeder {
+.commentContent haeder {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.authorAndTime {
+.authorAndTime strong {
     display: block;
     font-size: 0.875rem;
     line-height: 1.6;
@@ -34,6 +34,14 @@
 
 .authorAndTime time {
     display: block;
-    font-size: 0.25rem;
+    font-size: 0.75rem;
     line-height: 1.6;
+    color: var(--backgroundgray);
+}
+
+.commentContent haeder button {
+    background: transparent;
+    color: var(--backgroundgray);
+    border: 0;
+    cursor: pointer;
 }
