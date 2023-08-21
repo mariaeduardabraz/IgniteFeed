@@ -36,12 +36,12 @@
     display: block;
     font-size: 0.75rem;
     line-height: 1.6;
-    color: var(--backgroundgray);
+    color: var(--supporttext);
 }
 
-.commentContent haeder button {
+.commentContent header button {
     background: transparent;
-    color: var(--backgroundgray);
+    color: var(--supporttext);
     border: 0;
     cursor: pointer;
 }
