@@ -47,6 +47,7 @@
     line-height: 0;
     border-radius: 2px;
     transition: 0.3s;
+    position: absolute;
 }
 
 .commentContent header button:hover {
